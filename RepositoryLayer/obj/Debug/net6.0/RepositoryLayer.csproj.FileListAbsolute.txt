@@ -1,0 +1,17 @@
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.runtimeconfig.json
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.genruntimeconfig.cache
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\bin\Debug\net6.0\CommonLayer.dll
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\bin\Debug\net6.0\CommonLayer.pdb
+D:\BridgeLabz\CFP\FUNDOO\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CopyComplete
