@@ -1,0 +1,31 @@
+﻿using CommonLayer;
+using CommonLayer.Models;
+using Microsoft.AspNetCore.Http;
+using RepositoryLayer.Context;
+using RepositoryLayer.Entity;
+using RepositoryLayer.Migrations;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BusinessLayer.Interface
+{
+    public interface INoteBusiness
+    {
+        public NoteEntity AddNote(NotesModel notesModel, long UserId);
+        public List<NoteEntity> GetAllNotes(long UserId);
+        public bool UpdateNotes(long NoteId, long UserId, NotesModel notesModel);
+        public bool DeleteNote(long UserId, long NoteId);
+        public bool IsPinOrNot(long NoteId);
+        public bool IsArchiveOrNot(long NoteId);
+        public bool IsTrashOrNot(long NoteId);
+        public NoteEntity UpdateColor(long NoteId, string Color);
+        public bool DeleteTrashedNote(long NoteId);
+        public List<NoteEntity> DisplayArchivedNotes(long UserId);
+        public List<NoteEntity> DisplayTrashedNotes(long UserId);
+        public NoteEntity SetReminder(long NoteId, DateTime dateTime);
+        public string UploadImage(long NoteId, long UserId, IFormFile img);
+    }
+}
