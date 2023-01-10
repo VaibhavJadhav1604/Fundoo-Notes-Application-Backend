@@ -59,7 +59,7 @@ namespace RepositoryLayer.Services
                         var token = this.GenerateToken(result.Email, result.UserId);
                         return token;
                     }
-                    return "Login Failed";
+                    return null;
                 }
                 else
                 {
