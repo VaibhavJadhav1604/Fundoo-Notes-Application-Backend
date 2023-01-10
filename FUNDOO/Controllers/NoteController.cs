@@ -162,7 +162,7 @@ namespace FundooNotesApplication.Controllers
                 var result = noteBusiness.IsTrashOrNot(NoteId);
                 if (result != null)
                 {
-                    return this.Ok(new { success = true, message = "Note Trashed Successfully", Response = result });
+                    return this.Ok(new { success = true, message = "Note Trashed Successfully"});
                 }
                 else
                 {

@@ -46,7 +46,6 @@ namespace FundooNotesApplication.Controllers
         {
             try
             {
-                var response = this.userBusiness.UserLogin(userLoginModel);
                 //if (response != null)
                 //{
                 //    ConnectionMultiplexer connectionMultiplexer = ConnectionMultiplexer.Connect("127.0.0.1:6379");
@@ -70,6 +69,7 @@ namespace FundooNotesApplication.Controllers
                 //    logger.LogWarning("UnSuccessFully");
                 //    return this.BadRequest(new { success = false, message = "UnSuccessfull" });
                 //}
+                var response = this.userBusiness.UserLogin(userLoginModel);
                 if (response != null)
                 {
                     return this.Ok(new { success = true, message = "Login successfull", data = response });
